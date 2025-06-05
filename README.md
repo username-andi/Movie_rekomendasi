@@ -93,12 +93,12 @@ DataFrame credits_df terdiri dari 45.476 baris dan 4 kolom, salah satunya adalah
 Pada langkah ini melakukan persipan data bersarkan insight yang telah di dapatkan pada data understanding dan EDA.
 
 1.  Melakukan pembersihan data pada kolom 'overview' karena merupakan salah satu fitur yang digunakan pada pemodelan.
-<br>```python
+```python
 movies_df['overview'] = movies_df['overview'].fillna('')
 ```
-
+ 
 2. Mengubah type data pada kolom id yang sebelumnya masih bertype object diubah menjadi int.
-<br>```python
+```python
 movies_df['id'] = pd.to_numeric(movies_df['id'], errors='coerce')
 movies_df = movies_df.dropna(subset=['id'])
 movies_df['id'] = movies_df['id'].astype(int)
@@ -216,7 +216,7 @@ Hasil ini menunjukkan bahwa meskipun rekomendasi memiliki variasi genre yang cuk
 Untuk mengukur performa sistem secara objektif, digunakan metrik evaluasi kuantitatif berupa Confusion Matrix, Precision, dan Recall. Metrik ini menghitung seberapa baik sistem dalam merekomendasikan film yang benar-benar relevan berdasarkan ground truth yang telah ditentukan.
 Berikut hasil evaluasinya:
 Confusion Matrix 
-[Matrix](png/matrix.png)
+![Matrix](png/matrix.png)
 Precision: 0.50
 Recall: 0.67
 
