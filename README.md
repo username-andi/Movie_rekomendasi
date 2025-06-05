@@ -1,11 +1,19 @@
 
-# Laporan Proyek Sistem Rekomendasi
+# Laporan Proyek Sistem Rekomendasi - Andi Wibowo
 
 ## Project Overview
 
-Sistem rekomendasi film menjadi salah satu fitur yang sangat dibutuhkan dalam layanan hiburan digital. Proyek ini bertujuan membangun sistem rekomendasi berbasis konten (content-based filtering) untuk menyarankan film kepada pengguna berdasarkan metadata film seperti genre, overview, dan kredensial kru.
+Sistem rekomendasi film berbasis konten (content-based filtering) merupakan salah satu fitur kunci dalam layanan hiburan digital modern. Sistem ini bekerja dengan menganalisis metadata film seperti genre, overview, serta kredensial kru (misalnya sutradara dan aktor utama) untuk memahami karakteristik film yang disukai pengguna. Dengan membandingkan fitur-fitur tersebut, sistem dapat menyarankan film lain yang memiliki kemiripan dengan film yang sebelumnya pernah ditonton atau disukai pengguna(Salim et al., n.d.).
 
-Rekomendasi film yang relevan dapat meningkatkan kepuasan pengguna, memperpanjang waktu tonton, serta meningkatkan loyalitas terhadap platform.
+Penerapan sistem rekomendasi ini memberikan banyak manfaat bagi platform hiburan digital. Rekomendasi film yang relevan dapat meningkatkan kepuasan pengguna karena mereka lebih mudah menemukan film yang sesuai dengan preferensi pribadi tanpa harus mencari secara manual. Selain itu, pengalaman menonton yang lebih personal akan mendorong pengguna untuk menghabiskan waktu lebih lama di platform, sehingga memperpanjang waktu tonton dan meningkatkan loyalitas mereka terhadap layanan yang digunakan(Azri Saputra et al., 2024).
+
+Secara keseluruhan, pengembangan sistem rekomendasi film berbasis konten menjadi sangat penting di tengah persaingan industri hiburan digital yang semakin ketat. Dengan memberikan saran film yang relevan dan personal, platform dapat membedakan diri dari kompetitor, memperkuat hubungan dengan pengguna, serta mendorong eksplorasi konten yang lebih luas. Hal ini tidak hanya menguntungkan pengguna, tetapi juga memberikan nilai tambah bagi industri film secara keseluruhan. 
+
+## Referensi
+
+Azri Saputra, J. M., Huizen, L. M., & Arianto, D. B. (2024). Sistem Rekomendasi Film pada Platform Streaming Menggunakan Metode Content-Based Filtering. Jurnal Transformatika, 22(1), 10. [https://doi.org/10.26623/transformatika.v22i1.7041]
+
+Salim, E., Pragantha, J., & Lauro, M. D. (n.d.). Perancangan Sistem Rekomendasi Film menggunakan metode Content-based Filtering.[https://lintar.untar.ac.id/repository/penelitian/buktipenelitian_10390001_7A281222103549.pdf]
 
 ## Business Understanding
 
