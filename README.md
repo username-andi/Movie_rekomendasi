@@ -215,8 +215,9 @@ Hasil ini menunjukkan bahwa meskipun rekomendasi memiliki variasi genre yang cuk
 
 Untuk mengukur performa sistem secara objektif, digunakan metrik evaluasi kuantitatif berupa Confusion Matrix, Precision, dan Recall. Metrik ini menghitung seberapa baik sistem dalam merekomendasikan film yang benar-benar relevan berdasarkan ground truth yang telah ditentukan.
 Berikut hasil evaluasinya:
+
 Confusion Matrix 
-![Matrix](png/matrix.png)
+<br>![Matrix](png/matrix.png)
 Precision: 0.50
 Recall: 0.67
 
